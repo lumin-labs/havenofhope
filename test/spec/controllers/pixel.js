@@ -1,21 +1,17 @@
 'use strict';
 
-describe('Controller: MainCtrl', function () {
+describe('Controller: PixelCtrl', function () {
 
   // load the controller's module
-
-  beforeEach(module('havenofhopeApp'));
-
   beforeEach(module('templatesApp'));
-// >>>>>>> 24c64ddf38ce0bd044a780bb58153e05bba8baa8
 
-  var MainCtrl,
+  var PixelCtrl,
     scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    MainCtrl = $controller('MainCtrl', {
+    PixelCtrl = $controller('PixelCtrl', {
       $scope: scope
     });
   }));

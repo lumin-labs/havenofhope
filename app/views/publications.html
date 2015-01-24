@@ -11,10 +11,10 @@
           <div class="well green">
             <h2 id="haven">{{lang.dict.donate}}</h2>
             <p>{{lang.dict.donatemessage}}</p> 
-          
-           <button ng-click="href(lang.dict.lang,'/donate')" 
-                   class="btn btn-large btn-block btn-success" 
-                   type="button">{{lang.dict.donate}}</button>
+
+           <a href="#/{{data.lang}}/donate/h" 
+                   class="btn btn-large btn-block btn-success" >{{lang.dict.donate}}</a>
+
           </div>
         </div>
 
@@ -30,30 +30,6 @@
             <div class="col-md-12 well publication">
               <div class="row">
                 <div class="col-md-2">
-                  <img src="./images/pub-nov-13.png" class="img-thumbnail">
-                </div>
-                <div class="col-md-10">
-                  <h3>{{lang.dict.annual2014.label}}</h3>
-                  <h5>Download: 
-                    &nbsp; 
-                    <a href="./PDF English/annualreport-2014.pdf">{{lang.dict.english}}</a> 
-                    </h5>
-                </div>
-                <!-- <div class="col-md-10">
-                  <h3>{{lang.dict.annual2014.label}}</h3>
-                  <h5>Download: 
-                    &nbsp; 
-                    <a href="./PDF French/RAPPORT-ANNUEL-2014.pdf">{{lang.dict.french}}</a> 
-                    </h5>
-                </div> -->
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-12 well publication">
-              <div class="row">
-                <div class="col-md-2">
                   <img src="./images/pub-annual-13.png" class="img-thumbnail">
                 </div>
                 <div class="col-md-10">
@@ -61,8 +37,9 @@
                   <h5>Download: 
                     &nbsp; 
                     <a href="{{langDict.en.annual2013.url}}">{{lang.dict.english}}</a>
-                    <!-- &nbsp; 
-                    <a href="{{langDict.fr.dec2013.url}}">{{lang.dict.french}}</a> -->
+
+                     &nbsp; 
+                     <a href="{{langDict.fr.annual2013.url}}">{{lang.dict.french}}</a>
                   </h5>
                 </div>
               </div>
@@ -141,5 +118,6 @@
 
         </div>
       </div>
-</div>
+
+  </div>
 </div>

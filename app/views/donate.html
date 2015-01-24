@@ -1,4 +1,6 @@
- <div class="cover section">
+
+<div class="cover section">
+
  <div class="container">
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="row-fluid">
@@ -13,9 +15,9 @@
             <h2 id="haven">Volunteer</h2>
             <p>{{lang.dict.volunteermessage}}</p> 
 
-            <button ng-click="href(lang.dict.lang,'/contact')" 
-                     class="btn btn-large btn-block btn-warning" 
-                     type="button">Volunteer</button>
+
+            <a href="#/{{data.lang}}/contact/h"  
+               class="btn btn-large btn-block btn-warning">Volunteer</a>
             
             <!-- <p><a class="btn" href="about.html">Volunteer</a></p> -->
           </div>
@@ -38,9 +40,16 @@
               <dt>{{lang.dict.office}}</dt>
               <dd>BAMENDA, Cameroun</dd>
               
+
               <!-- <dt>{{lang.dict.bankswiftcode}}</dt>
               <dd>SGCMCMCX</dd>
  -->
+              <!-- <dt>IBAN</dt>
+              <dd>CM21 10003 01600 16160470446 25</dd> -->
+
+             <!--  <dt>{{lang.dict.bankswiftcode}}</dt>
+              <dd>SGCMCMCX</dd> -->
+
               <!-- <dt>IBAN</dt>
               <dd>CM21 10003 01600 16160470446 25</dd> -->
 
@@ -52,5 +61,7 @@
         </div>
       </div>
       
-</div>
+
+  </div>
+
 </div>
