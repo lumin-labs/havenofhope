@@ -1,0 +1,73 @@
+<div class="objectives section">
+  <div class="container">
+
+      <div class="row-fluid">
+        <div class="col-md-3">
+          <div  class="well">
+            <h5>{{lang.dict.bulletinlabel}}</h5>
+            <ul class="nav nav-stacked-skinny" style="font-size:.65em;">
+              <li><a href="{{lang.dict.annual2013.url}}">{{lang.dict.annual2013.label}}</a></li>
+              <li><a href="{{lang.dict.dec2013.url}}">{{lang.dict.dec2013.label}}</a></li>
+              <li><a href="{{lang.dict.nov2013.url}}">{{lang.dict.nov2013.label}}</a></li>
+              <li><a ng-href="#/{{lang.dict.lang}}/publications">{{lang.dict.more}} ...</a></li>
+            </ul>
+          </div>
+
+          <div class="well green">
+            <h2 id="haven">{{lang.dict.donate}}</h2>
+            <p>{{lang.dict.donatemessage}}</p> 
+          
+           <button ng-click="href(lang.dict.lang,'/donate')" 
+                   class="btn btn-large btn-block btn-success" 
+                   type="button">{{lang.dict.donate}}</button>
+          </div>
+        
+          <div class="well red">
+            <h2 id="haven">{{lang.dict.volunteer}}</h2>
+            <p>{{lang.dict.volunteermessage}}</p> 
+
+            <button ng-click="href(lang.dict.lang,'/contact')" 
+                     class="btn btn-large btn-block btn-warning" 
+                     type="button">{{lang.dict.volunteer}}</button>
+            
+            <!-- <p><a class="btn" href="about.html">Volunteer</a></p> -->
+          </div>
+
+        </div>
+        <div class="col-md-9 objectives-details">
+         <img src="images/Banner-hoh.png" class="img-thumbnail" style="margin-bottom:20px;"> 
+          <div  class="hero-unit">
+            <h2 class="header">{{lang.dict.objectivelabel}}</h2>
+            <p>{{lang.dict.objectivesummary}}:</p>
+
+            <dl style="padding-left:20px;">
+              <dt>1. Self Confidence</dt>
+              <dd>{{lang.dict.objective1}}</dd>
+              <dt>2. Financial Security</dt>
+              <dd>{{lang.dict.objective2}}</dd>
+              <dt>3. Vocational Training</dt>
+              <dd>{{lang.dict.objective3}}</dd>
+              <dt>4. Entrepreneurship</dt>
+              <dd>{{lang.dict.objective4}}</dd>
+              <dt>5. Hope</dt>
+              <dd>{{lang.dict.objective5}}</dd>
+            </dl>
+            
+            <div class="well blue">
+              <h2 id="haven">{{lang.dict.joinus}}</h2>
+              <p>{{lang.dict.joinusmessage}}</p> 
+              
+              <button ng-click="href(lang.dict.lang,'/contact')" 
+                       class="btn btn-large btn-primary" 
+                       type="button">{{lang.dict.joinus}}</button>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+  </div>
+</div>
+

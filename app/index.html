@@ -1,0 +1,152 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/sass-bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- <link rel="stylesheet" href="styles/main.css"> -->
+    <!-- endbuild -->
+    <!-- build:css({.tmp,app}) styles/app.css -->
+    <link rel="stylesheet" href="styles/app.css">
+    <!-- endbuild -->
+  </head>
+  <body ng-app="hoh" ng-controller="Main" id="top">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+   <div id="wrap">
+
+    <div class="topbar">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img class="logo" src="images/logo-badge-og-2.png">
+          </div>
+          <!-- <div class="col-md-5"><h3>{{lang.dict.name}}</h3></div> -->
+          <div class="col-md-10">
+              <ul class="nav nav-pills">
+                <li ng-class="getClass('home')">
+                  <a ng-cloak href="#/{{lang.dict.lang}}/home">Home</a>
+                </li>
+                <li ng-class="getClass('about')">
+                  <a ng-cloak href="#/{{lang.dict.lang}}/about">About</a>
+                </li>
+                <li ng-class="getClass('contact')">
+                  <a ng-cloak href="#/{{lang.dict.lang}}/contact">Contact</a>
+                </li>
+                <li ng-class="getClass('donate')">
+                  <a ng-cloak href="#/{{lang.dict.lang}}/donate">Donate</a>
+                </li>
+                <li ng-class="getClass('publications')">
+                  <a ng-cloak href="#/{{lang.dict.lang}}/publications">Publications</a>
+                </li>
+                <li class="pull-right"><a ng-cloak href="#/{{lang.dict.next}}/{{path()}}">{{lang.dict.nextLabel}}</a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-10">
+          <p><b ng-cloak>{{lang.dict.subtitle}}</b></p>
+          </div>
+         <!--  <div class="col-md-3"> -->
+         <!--  </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div ng-view></div>
+    <div id="push"></div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-md-1"></div> -->
+          <div class="col-md-2">
+            <img src="images/logo-mom-2-white.png" style="width:100px">
+          </div>
+          <div class="col-md-2" >
+            <span ng-include="'views/address.html'"></span>
+          </div>
+          <div class="col-md-3">
+            <span ng-include="'views/address-contact.html'"></span>
+          </div>
+          <div class="col-md-3">
+            <strong ng-cloak>{{lang.dict.bulletinlabel}}</strong>
+            <ul class="nav nav-stacked-skinny">
+              <li><a ng-cloak href="{{lang.dict.annual2014.url}}">{{lang.dict.annual2014.label}}</a></li>
+              <li><a ng-cloak href="{{lang.dict.annual2013.url}}">{{lang.dict.annual2013.label}}</a></li>
+              <li><a ng-cloak href="{{lang.dict.dec2013.url}}">{{lang.dict.dec2013.label}}</a></li>
+              <li><a ng-cloak href="{{lang.dict.nov2013.url}}">{{lang.dict.nov2013.label}}</a></li>
+              <li><a ng-cloak ng-href="#/{{lang.dict.lang}}/publications#top">{{lang.dict.more}} ...</a></li>
+            </ul>
+          </div> 
+          <div class="col-md-1">
+            <strong>Links</strong>
+            <ul class="nav nav-stacked-skinny">
+              <li class=""><a href="#/{{lang.dict.lang}}/home#top">Home</a></li>
+              <li><a href="#/{{lang.dict.lang}}/about#top">About</a></li>
+              <li><a href="#/{{lang.dict.lang}}/contact#top">Contact</a></li>
+              <li><a href="#/{{lang.dict.lang}}/donate#top">Donate</a></li>
+            </ul>
+          </div> 
+        </div>
+      </div>
+    </footer>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+    <!-- <script>
+    //    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    //    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    //    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    //    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    //    ga('create', 'UA-XXXXX-X');
+    //    ga('send', 'pageview');
+     </script>-->
+
+    <!--[if lt IE 9]>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/json3/lib/json3.min.js"></script>
+    <![endif]-->
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/sass-bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/controllers.js"></script>
+        <script src="scripts/directives.js"></script>
+        <script src="scripts/filters.js"></script>
+        <script src="scripts/services.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

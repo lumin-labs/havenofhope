@@ -1,0 +1,61 @@
+ <div class="section cover">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 intro">
+          <h2 ng-cloak id="haven">{{lang.dict.welcome}}!</h2>
+          <p ng-cloak>{{lang.dict.introduction}}</p> 
+          <!-- <p><a class="btn" href="about.html">{{lang.dict.viewdetails}} &raquo;</a></p> -->
+        </div>
+        <div class="col-md-8">
+          <!-- Carousel
+          ================================================== -->
+          <carousel class="img-thumbnail" interval="5000">
+            <slide><img src="images/gallery-1.png" style="margin:auto;"></slide>
+            <slide><img src="images/gallery-2.png" style="margin:auto;"></slide>
+            <slide><img src="images/gallery-3.png" style="margin:auto;"></slide>
+            <slide><img src="images/gallery-4.png" style="margin:auto;"></slide>
+            <slide><img src="images/gallery-5.png" style="margin:auto;"></slide>
+            <slide><img src="images/gallery-6.png" style="margin:auto;"></slide>
+            <slide><img src="images/gallery-7.png" style="margin:auto;"></slide>
+          </carousel>
+        </div> 
+      </div> 
+    </div>
+</div>
+      <!-- Example row of columns -->
+    <div class="section info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="well green">
+              <h2 ng-cloak id="haven">{{lang.dict.donate}}</h2>
+              <p ng-cloak>{{lang.dict.donatemessage}}</p> 
+             <button ng-click="href(lang.dict.lang,'/donate')" 
+                     class="btn btn-large btn-block btn-success" 
+                     type="button">Donate</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="well blue">
+              <h2 ng-cloak id="haven">{{lang.dict.joinus}}</h2>
+              <p ng-cloak>{{lang.dict.joinusmessage}}</p> 
+              <button ng-click="href(lang.dict.lang,'/contact')" 
+                       class="btn btn-large btn-block btn-primary" 
+                       type="button">Join Us</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="well red">
+              <h2 ng-cloak id="haven">{{lang.dict.volunteer}}</h2>
+              <p ng-cloak>{{lang.dict.volunteermessage}}</p> 
+
+              <button ng-click="href(lang.dict.lang,'/contact')" 
+                       class="btn btn-large btn-block btn-warning" 
+                       type="button">Volunteer</button>
+              
+              <!-- <p><a class="btn" href="about.html">Volunteer</a></p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
