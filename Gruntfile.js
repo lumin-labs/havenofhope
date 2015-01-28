@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// Generated on 2014-03-26 using generator-angular 0.7.1
-=======
 // Generated on 2014-02-08 using generator-angular 0.7.1
->>>>>>> 24c64ddf38ce0bd044a780bb58153e05bba8baa8
 'use strict';
 
 // # Globbing
@@ -54,15 +50,10 @@ module.exports = function (grunt) {
           livereload: '<%= connect.options.livereload %>'
         },
         files: [
-<<<<<<< HEAD
-          '<%= yeoman.app %>/{,*/}*.html',
-          '.tmp/styles/{,*/}*.css',
-          '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
-=======
+
           '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
           '<%= yeoman.app %>/{,*/}*.html',
           '.tmp/styles/{,*/}*.css'
->>>>>>> 24c64ddf38ce0bd044a780bb58153e05bba8baa8
         ]
       }
     },
@@ -302,8 +293,7 @@ module.exports = function (grunt) {
           cwd: '.tmp/images',
           dest: '<%= yeoman.dist %>/images',
           src: ['generated/*']
-<<<<<<< HEAD
-=======
+
         }, {
           expand: true,
           cwd: '<%= yeoman.app %>',
@@ -318,7 +308,6 @@ module.exports = function (grunt) {
           src: [
             'CNAME',
             ]
->>>>>>> 24c64ddf38ce0bd044a780bb58153e05bba8baa8
         }]
       },
       styles: {

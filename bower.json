@@ -1,24 +1,4 @@
 {
-<<<<<<< HEAD
-  "name": "camlawhr",
-  "version": "0.0.0",
-  "dependencies": {
-    "angular": "1.2.6",
-    "json3": "~3.2.6",
-    "es5-shim": "~2.1.0",
-    "jquery": "~1.10.2",
-    "sass-bootstrap": "~3.0.2",
-    "angular-resource": "1.2.6",
-    "angular-cookies": "1.2.6",
-    "angular-sanitize": "1.2.6",
-    "angular-route": "1.2.6",
-    "angular-touch":"1.3.0-build.2518+sha.47ba601",
-    "angular-carousel":"0.2.2"
-  },
-  "devDependencies": {
-    "angular-mocks": "1.2.6",
-    "angular-scenario": "1.2.6"
-=======
   "name": "templates",
   "version": "0.0.0",
   "dependencies": {
@@ -36,6 +16,5 @@
   "devDependencies": {
     "angular-mocks": "git://github.com/angular/bower-angular-mocks.git#~1.2.12",
     "angular-scenario": "git://github.com/angular/bower-angular-scenario.git#~1.2.12"
->>>>>>> 24c64ddf38ce0bd044a780bb58153e05bba8baa8
   }
 }
