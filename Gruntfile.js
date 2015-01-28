@@ -50,7 +50,6 @@ module.exports = function (grunt) {
           livereload: '<%= connect.options.livereload %>'
         },
         files: [
-
           '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
           '<%= yeoman.app %>/{,*/}*.html',
           '.tmp/styles/{,*/}*.css'
@@ -293,7 +292,6 @@ module.exports = function (grunt) {
           cwd: '.tmp/images',
           dest: '<%= yeoman.dist %>/images',
           src: ['generated/*']
-
         }, {
           expand: true,
           cwd: '<%= yeoman.app %>',
