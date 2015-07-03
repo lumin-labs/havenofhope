@@ -36,6 +36,8 @@ angular.module('hoh.services', []).service('langService', function(){
   langDict.fr.viewdetails="En détail";
   langDict.en.callus="Please call or email us at:";
   langDict.fr.callus="S'il vous plaît appelez ou écrivez-nous à:";
+  langDict.en.motivationlabel="THE MOTIVATION IN CREATING HOH";
+  langDict.fr.motivationlabel="LA MOTIVATION DANS LA CRÉATION HOH";
   langDict.en.bulletinlabel="Monthly Newsletters";
   langDict.fr.bulletinlabel="Bulletins d'Information";
   langDict.en.meettheteam="Meet The Team";
@@ -88,6 +90,9 @@ angular.module('hoh.services', []).service('langService', function(){
   langDict.en.volunteer="Volunteer";
   langDict.fr.volunteer='Volontaire' ;
 
+  // motivation
+  langDict.en.motivation={"label":"HOH-motivation creation","url":"media/PDF English/HOH-Motivation.pdf"};
+  langDict.fr.motivation={"label":"Création HOH - motivation","url":"media/PDF English/HOH-Motivation.pdf"};
 // PAGES
 
   // page: Donate
@@ -96,7 +101,9 @@ angular.module('hoh.services', []).service('langService', function(){
 
   langDict.en.donatemessagelong="Your donation directly helps teen mothers in need. We thank you for making a difference in young womens lives. To donate, please email us at:";
   langDict.fr.donatemessagelong="Votre don sert uniquement à aider les jeunes-filles-mères dans le besoin. Nous vous remercions de faire la différence dans la vie des mères adolescentes. Pour faire un don, contactez-nous:";
-
+  
+  
+  
   // page: Publications
   langDict.en.annual2014={"label":"annualreport-2014","url":"media/PDF English/annualreport-2014.pdf"};
   langDict.fr.annual2014={"label":"RAPPORT-ANNUEL-2014.pdf","url":"media/PDF French/RAPPORT-ANNUEL-2014.pdf"};
@@ -105,7 +112,8 @@ angular.module('hoh.services', []).service('langService', function(){
   langDict.en.march2013 = {"label":"Bulletin March 2013", "url":"media/PDF%20English/BULLETIN%2003-2013.pdf"};
   langDict.fr.march2013 = {"label":"Bulletin Mars 2013",  "url":"media/PDF%20French/BULLETIN%2003-2013.pdf"};
 
-  // page: About 
+  // page: About
+
   langDict.en.objectivelabel="Objectives";
   langDict.fr.objectivelabel="LES OBJECTIFS";
   langDict.en.objectivesummary="In order to achieve our goals, the following objectives have been set";
