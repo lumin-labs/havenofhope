@@ -36,6 +36,8 @@ angular.module('hoh.services', []).service('langService', function(){
   langDict.fr.viewdetails="En détail";
   langDict.en.callus="Please call or email us at:";
   langDict.fr.callus="S'il vous plaît appelez ou écrivez-nous à:";
+  langDict.en.eventlabel="Events";
+  langDict.fr.eventlabel="ÉVÉNEMENTS";
   langDict.en.motivationlabel="THE MOTIVATION IN CREATING HOH";
   langDict.fr.motivationlabel="LA MOTIVATION DANS LA CRÉATION HOH";
   langDict.en.bulletinlabel="Monthly Newsletters";
@@ -90,9 +92,20 @@ angular.module('hoh.services', []).service('langService', function(){
   langDict.en.volunteer="Volunteer";
   langDict.fr.volunteer='Volontaire' ;
 
+  // Events
+  langDict.en.mbo={"label":"MBO-SANTA","url":"media/PDF English/MBO-SANTA.pdf"};
+  langDict.fr.mbo={"label":"MBO-SANTA","url":"media/PDF English/HOH-Motivation.pdf"};
+  langDict.en.events2={"label":"20May15-Mbororo","url":"media/PDF English/20May15-Mbororo.pdf"};
+  langDict.fr.events2={"label":"20May15-Mbororo","url":"media/PDF English/20May15-Mbororo.pdf"};
+  langDict.en.events3={"label":"Labour day2015","url":"media/PDF English/Labour day2015.pdf"};
+  langDict.fr.events3={"label":"Labour day2015","url":"media/PDF English/Labour day2015.pdf"};
+  langDict.en.events4={"label":"Special Assistance","url":"media/PDF English/Special assistance.pdf"};
+  langDict.fr.events4={"label":"Special assistance","url":"media/PDF English/Special assistance.pdf"};
+ 
   // motivation
-  langDict.en.motivation={"label":"HOH-motivation creation","url":"media/PDF English/HOH-Motivation.pdf"};
+  langDict.en.motivation={"label":"HOH-creation motivation ","url":"media/PDF English/HOH-Motivation.pdf"};
   langDict.fr.motivation={"label":"Création HOH - motivation","url":"media/PDF English/HOH-Motivation.pdf"};
+
 // PAGES
 
   // page: Donate
