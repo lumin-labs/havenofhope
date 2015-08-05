@@ -85,6 +85,10 @@
                   <a ng-cloak 
                      ng-href="#/{{data.lang}}/contact/h">Contact</a>
                 </li>
+                <li class="{{data.page === 'events' ? 'active' : ''}}">
+                  <a ng-cloak 
+                     ng-href="#/{{data.lang}}/events/h">Events</a>
+                </li>
                 <li class="{{data.page === 'donate' ? 'active' : ''}}">
                   <a ng-cloak 
                      ng-href="#/{{data.lang}}/donate/h">Donate</a>
@@ -189,12 +193,6 @@
 
             <div class="row-fluid">
               <div class="col-md-3">
-          <div  class="well">
-            <h5>{{lang.dict.motivationlabel}}</h5>
-            <ul class="nav nav-stacked-skinny" style="font-size:.65em;">
-              <li><a href="{{lang.dict.motivation.url}}">{{lang.dict.motivation.label}}</a></li>
-            </ul>
-          </div>
                 <div  class="well">
                   <h5>{{lang.dict.bulletinlabel}}</h5>
                   <ul class="nav nav-stacked-skinny" style="font-size:.65em;">
@@ -234,6 +232,10 @@
                     <li ng-class="data.subPage === 'history'? 'active' :''">
                       <a ng-click="open({subpage:'history'})"
                          href="#/{{lang.dict.lang}}/about/history">History</a>
+                    </li>
+                    <li ng-class="data.subPage === 'motivation'? 'active' :''">
+                      <a ng-click="open({subpage:'motivation'})"
+                         href="#/{{lang.dict.lang}}/about/motivation">Motivation</a>
                     </li>
                   </ul>
                 <div  class="objectives-details hero-unit pane" 
@@ -276,6 +278,27 @@
                       <img src="images/gladysf.png" class="img-thumbnail"><br>
                   </div>
                 </div>
+                <div class="hero-unit pane biography" 
+                     ng-if="data.subPage === 'motivation' ? true : false">
+                     <h3>THE MOTIVATION IN CREATING HOH</h3>
+                  <p>In a nutshell, I will try to explain how the idea of Haven of Hope came about, and the driving force behind its existence. 
+                  The tendency to help those who are less privileged nurtured within me ever since I was a child.</p>
+                  <p>Through the nature of my work with the UN Refugee Agency, UNHCR, I was exposed over and over again to the plight of the uprooted, the destitute and the disenfranchised.  Among these the most vulnerable groups were women and children.</p>
+                  <p>I began to reflect on how I could do something in a tangible way to help them.</p>
+                  <p>The choice of teen-mothers became the inner calling.</p>
+                  <p>Settling on the certitude that teen-mothers was the target group, I worked towards creating a philanthropic foundation upon my retirement.</p>
+                  <p>The Ndang Sisters' Foundation was a response to that calling. It was founded in September 2010 as a tribute to my Dad, and dedicated to him in appreciation of sacrificing his personal comfort to ensure that my siblings and I were brought up in a loving and secure environment.  The public name - Haven of Hope, is an act of thanksgiving to the Creator for having given me caring parents and for always providing for me abundantly.</p>
+                  <p>Through counselling sessions, teen-mothers' self-confidence and self esteem are rebuilt - they are brought through the feeling of self condemnation: failure, undeserving, outcasts or unfits. Once the glow of hope is ignited, they are given the opportunity to reconnect to their dreams and rebuild their lives in order to become financially self-sufficient. Thus they are able to take care of themselves and their children.  Beyond this, we aim at preparing them for a successful and wholesome adulthood:  grateful adult children who will care for their aging parents,  caring mothers who will bring up their children properly, respectful wives who will support their husbands, and responsible citizens who will contribute positively to the welfare of their communities.</p>
+                  <p>Gladys A. Ndang
+                     <br>Founder/Chief Executive Director
+                     <br>Haven of Hope Cameroon</p>
+                  
+                  <div class="  profile profile-md">
+                      <img src="images/g.png" class="img-thumbnail"><br>
+                  </div>
+                </div>
+
+
 
               </div>
 
@@ -358,6 +381,155 @@
         </div>
     </div>
 
+    <!-- EVENTS -->
+    <div ng-if="data.page === 'events'">
+      <div class="cover section">
+       <div class="container">
+            <!-- Main hero unit for a primary marketing message or call to action -->
+    
+            <div class="row">
+
+              <div class="col-md-3">
+                <div class="well">
+                  <span ng-include="'views/address.html'"></span>
+                  <span ng-include="'views/address-contact.html'"></span>
+                </div>
+              <div class="well blue">
+                <h2 ng-cloak id="haven">{{lang.dict.joinus}}</h2>
+                <p ng-cloak>{{lang.dict.joinusmessage}}</p> 
+                <a href="#/{{data.lang}}/contact/h"
+                         class="btn btn-large btn-block btn-primary">Join Us</a>
+              </div>
+              </div>
+
+              <div class="col-md-9 hero-unit contact">
+
+                <div class="row">
+                  <div class="col-md-6">
+                    <h1>Events</h1>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-12 well event">
+                    <div class="row">
+                      <div class="col-md-2">
+                        <img src="./images/mbo.png" class="img-thumbnail">
+                      </div>
+                      <div class="col-md-10">
+                        <h3>{{lang.dict.mbo.label}}</h3>
+                        <h5>Download: 
+                          &nbsp; 
+                          <a href="{{langDict.en.mbo.url}}">{{lang.dict.english}}</a>
+                           &nbsp; 
+                           <a href="{{langDict.fr.mbo.url}}">{{lang.dict.french}}</a>
+                        </h5>
+                        <h5>Download: 
+                          &nbsp; 
+                          <a href="{{langDict.en.labourday.url}}">{{lang.dict.english}}</a>
+                           &nbsp; 
+                           <a href="{{langDict.fr.labourday.url}}">{{lang.dict.french}}</a>
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-12 well event">
+                    <div class="row">
+                      <div class="col-md-2">
+                        <img src="./images/labourday.png" class="img-thumbnail">
+                      </div>
+                      <div class="col-md-10">
+                        <h3>{{lang.dict.labourday.label}}</h3>
+                        <h5>Download: 
+                          &nbsp; 
+                          <a href="{{langDict.en.labourday.url}}">{{lang.dict.english}}</a>
+                           &nbsp; 
+                           <a href="{{langDict.fr.labourday.url}}">{{lang.dict.french}}</a>
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 well event">
+                    <div class="row">
+                      <div class="col-md-2">
+                        <img src="./images/assist.png" class="img-thumbnail">
+                      </div>
+                      <div class="col-md-10">
+                        <h3>{{lang.dict.specialassistance.label}}</h3>
+                        <h5>Download: 
+                          &nbsp; 
+                          <a href="{{langDict.en.specialassistance.url}}">{{lang.dict.english}}</a>
+                          &nbsp; 
+                          <a href="{{langDict.fr.specialassistance.url}}">{{lang.dict.french}}</a></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                 <!-- <div class="row">
+                  <div class="col-md-12 well event">
+                    <div class="row">
+                      <div class="col-md-2">
+                        <img src="./images/pub-nov-13.png" class="img-thumbnail">
+                      </div>
+                      <div class="col-md-10">
+                        <h3>{{lang.dict.nov2013.label}}</h3>
+                        <h5>Download: 
+                          &nbsp; 
+                          <a href="./PDF English/REPORT 12-2013 EN.pdf">{{lang.dict.english}}</a>
+                          &nbsp; 
+                          <a href="./PDF French/REPORT 12-2013 FR.pdf">{{lang.dict.french}}</a></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+              <!--   <div class="row">
+                  <div class="col-md-12 well event">
+                    <div class="row">
+                      <div class="col-md-2">
+                        <img src="./images/pub-jul-13.png" class="img-thumbnail">
+                      </div>
+                      <div class="col-md-10">
+                        <h3>{{lang.dict.july2013.label}}</h3>
+                        <h5>Download: 
+                        &nbsp; 
+                          <a href="{{langDict.en.july2013.url}}">{{lang.dict.english}}</a>
+                          &nbsp; 
+                          <a href="{{langDict.fr.july2013.url}}">{{lang.dict.french}}</a></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+                <!-- <div class="row">
+                  <div class="col-md-12 well event">
+                    <div class="row">
+                      <div class="col-md-2">
+                        <img src="./images/pub-mar-13.png" class="img-thumbnail">
+                      </div>
+                      <div class="col-md-10">
+                        <h3>{{lang.dict.march2013.label}}</h3>
+                        <h5>Download: 
+                        &nbsp; 
+                          <a href="{{langDict.en.march2013.url}}">{{lang.dict.english}}</a>
+                          &nbsp; 
+                          <a href="{{langDict.fr.march2013.url}}">{{lang.dict.french}}</a></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+
+
+
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
     <!-- DONATE -->
     <div ng-if="data.page === 'donate'">
       <div class="cover section">
@@ -391,7 +563,7 @@
                     <dl class="dl-horizontal">
 
                       <dt>{{lang.dict.bank}}</dt>
-                      <dd>Societe General De Banques Au Cameroun</dd>
+                      <dd>SOCIETE GENERALE CAMEROUN</dd>
 
                       <dt>{{lang.dict.headquarter}}</dt>
                       <dd>DOUALA, Cameroun</dd>
@@ -406,7 +578,7 @@
                       <dd>CM21 10003 01600 16160470446 25</dd> -->
 
                       <dt>{{lang.dict.beneficiary}}</dt>
-                      <dd>Haven of Hope</dd>
+                      <dd>Haven of Hope, Cameroon</dd>
                     </dl>
                   </div>
 
@@ -426,15 +598,6 @@
             <div class="row">
 
               <div class="col-md-3">
-                <div  class="well">
-                  <h1>{{lang.dict.eventlabel}}</h1>
-                  <ul class="nav nav-stacked-skinny" style="font-size:.65em;">
-                    <li><h5><a href="{{lang.dict.mbo.url}}">{{lang.dict.mbo.label}}</a></h5></li>
-                    <li><h5><a href="{{lang.dict.events2.url}}">{{lang.dict.events2.label}}</a></h5></li>
-                    <li><h5><a href="{{lang.dict.events3.url}}">{{lang.dict.events3.label}}</a></h5></li>
-                    <li><h5><a href="{{lang.dict.events4.url}}">{{lang.dict.events4.label}}</a></h5></li>
-                  </ul>
-                </div>
                 <div class="well">
                   <span ng-include="'views/address.html'"></span>
                   <span ng-include="'views/address-contact.html'"></span>

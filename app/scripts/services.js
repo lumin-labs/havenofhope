@@ -38,8 +38,6 @@ angular.module('hoh.services', []).service('langService', function(){
   langDict.fr.callus="S'il vous plaît appelez ou écrivez-nous à:";
   langDict.en.eventlabel="Events";
   langDict.fr.eventlabel="ÉVÉNEMENTS";
-  langDict.en.motivationlabel="THE MOTIVATION IN CREATING HOH";
-  langDict.fr.motivationlabel="LA MOTIVATION DANS LA CRÉATION HOH";
   langDict.en.bulletinlabel="Monthly Newsletters";
   langDict.fr.bulletinlabel="Bulletins d'Information";
   langDict.en.meettheteam="Meet The Team";
@@ -93,18 +91,14 @@ angular.module('hoh.services', []).service('langService', function(){
   langDict.fr.volunteer='Volontaire' ;
 
   // Events
-  langDict.en.mbo={"label":"MBO-SANTA","url":"media/PDF English/MBO-SANTA.pdf"};
-  langDict.fr.mbo={"label":"MBO-SANTA","url":"media/PDF English/HOH-Motivation.pdf"};
-  langDict.en.events2={"label":"20May15-Mbororo","url":"media/PDF English/20May15-Mbororo.pdf"};
-  langDict.fr.events2={"label":"20May15-Mbororo","url":"media/PDF English/20May15-Mbororo.pdf"};
-  langDict.en.events3={"label":"Labour day2015","url":"media/PDF English/Labour day2015.pdf"};
-  langDict.fr.events3={"label":"Labour day2015","url":"media/PDF English/Labour day2015.pdf"};
-  langDict.en.events4={"label":"Special Assistance","url":"media/PDF English/Special assistance.pdf"};
-  langDict.fr.events4={"label":"Special assistance","url":"media/PDF English/Special assistance.pdf"};
- 
-  // motivation
-  langDict.en.motivation={"label":"HOH-creation motivation ","url":"media/PDF English/HOH-Motivation.pdf"};
-  langDict.fr.motivation={"label":"Création HOH - motivation","url":"media/PDF English/HOH-Motivation.pdf"};
+  langDict.en.mbo={"label":"National days manifestations","url":"media/PDF English/20May15-Mbororo.pdf"};
+  langDict.fr.mbo={"label":"National days manifestations","url":"media/PDF English/20May15-Mbororo.pdf"};
+  // langDict.en.events2={"label":"20May15-Mbororo","url":"media/PDF English/20May15-Mbororo.pdf"};
+  // langDict.fr.events2={"label":"20May15-Mbororo","url":"media/PDF English/20May15-Mbororo.pdf"};
+  langDict.en.labourday={"label":"Labour day 2015","url":"media/PDF English/Labour day2015.pdf"};
+  langDict.fr.labourday={"label":"Labour day2015","url":"media/PDF English/Labour day2015.pdf"};
+  langDict.en.specialassistance={"label":"NGO Partnership","url":"media/PDF English/Special assistance.pdf"};
+  langDict.fr.specialassistance={"label":"NGO Partnership","url":"media/PDF English/Special assistance.pdf"};
 
 // PAGES
 
@@ -118,7 +112,7 @@ angular.module('hoh.services', []).service('langService', function(){
   
   
   // page: Publications
-  langDict.en.annual2014={"label":"annualreport-2014","url":"media/PDF English/annualreport-2014.pdf"};
+  langDict.en.annual2014={"label":"Annual Report-2014","url":"media/PDF English/annualreport-2014.pdf"};
   langDict.fr.annual2014={"label":"RAPPORT-ANNUEL-2014.pdf","url":"media/PDF French/RAPPORT-ANNUEL-2014.pdf"};
   langDict.en.annual2013={"label":"Annual Report 2013","url":"media/PDF English/ANNUAL 2013 v2 EN.pdf"};
   langDict.fr.annual2013={"label":"Rapport Annuel 2013","url":"media/PDF French/ANNUAL 2013 v2 FR.pdf"};
