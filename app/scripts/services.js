@@ -34,6 +34,7 @@ angular.module('hoh.services', []).service('langService', function(){
   langDict.fr.introduction="Havre d'Espérance est une fondation caritative, indépendente, à but non lucratif, non partisan et non confessionnel avec le siège administratif au Cameroun, crée par un groupe d'amis bienveillants dont le but est de contribuer de manière tangible, à améliorer les conditions de vie des jeunes-filles-méres adolescentes, qui peuvent avoir perdu tout intérêt dans la vie active en raison d'une maternité précoce ou inattendue.  ";
   langDict.en.Projectsproposal='PROJECT PROPOSAL 2016-2018';
   langDict.en.Projectsproposal='PROJECT PROPOSAL 2016-2018';
+  langDict.en.office='OFFICE BUILDING APPEAL';
   langDict.en.viewdetails="Learn More";
   langDict.fr.viewdetails="En détail";
 
@@ -77,6 +78,8 @@ angular.module('hoh.services', []).service('langService', function(){
   langDict.fr.dec2013={"label":"Bulletin Decembre 2013","url":"media/PDF French/BULLETIN 12-2013 FR.pdf"};
   langDict.en.proposal ={"label":"PROJECT PROPOSAL 2016-2018", "url":"media/PDF English/PROJ DESIGN-2015.pdf"};
   langDict.fr.proposal ={"label":"PROJECT PROPOSAL 2016-2018", "url":"media/PDF English/PROJ DESIGN-2015.pdf"};
+  langDict.en.office ={"label":"OFFICE BUILDING APPEAL", "url":"media/PDF English/OFFICE BUILDING-APPEAL.pdf"};
+  langDict.fr.office ={"label":"OFFICE BUILDING APPEAL", "url":"media/PDF English/OFFICE BUILDING-APPEAL.pdf"};
         
      
 // PARTIALS
