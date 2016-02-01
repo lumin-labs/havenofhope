@@ -35,6 +35,10 @@ angular.module('hoh.services', []).service('langService', function(){
   langDict.en.Projectsproposal='PROJECT PROPOSAL 2016-2018';
   langDict.en.Officebuilding='OFFICE BUILDING APEAL';
   // langDict.en.Projectsproposal='PROJECT PROPOSAL 2016-2018';
+// =======
+//   langDict.en.Projectsproposal='PROJECT PROPOSAL 2016-2018';
+//   langDict.en.office='OFFICE BUILDING APPEAL';
+// >>>>>>> ba0c5a981590bfe5d6f3a80a4d284bdf01c3f9d3
   langDict.en.viewdetails="Learn More";
   langDict.fr.viewdetails="En détail";
 
@@ -79,6 +83,11 @@ angular.module('hoh.services', []).service('langService', function(){
   langDict.en.proposal ={"label":"PROJECT PROPOSAL 2016-2018", "url":"media/PDF English/PROJ DESIGN-2015.pdf"};
   langDict.fr.proposal ={"label":"PROJECT PROPOSAL 2016-2018", "url":"media/PDF English/PROJ DESIGN-2015.pdf"};
   langDict.en.office ={"label":"OFFICE BUILDING APEAL", "url":"media/PDF English/OFFICE BUILDING-APPEAL.pdf"};      
+// =======
+//   langDict.en.office ={"label":"OFFICE BUILDING APPEAL", "url":"media/PDF English/OFFICE BUILDING-APPEAL.pdf"};
+//   langDict.fr.office ={"label":"OFFICE BUILDING APPEAL", "url":"media/PDF English/OFFICE BUILDING-APPEAL.pdf"};
+        
+// >>>>>>> ba0c5a981590bfe5d6f3a80a4d284bdf01c3f9d3
      
 // PARTIALS
 
