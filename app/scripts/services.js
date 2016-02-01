@@ -82,7 +82,7 @@ angular.module('hoh.services', []).service('langService', function(){
   langDict.fr.dec2013={"label":"Bulletin Decembre 2013","url":"media/PDF French/BULLETIN 12-2013 FR.pdf"};
   langDict.en.proposal ={"label":"PROJECT PROPOSAL 2016-2018", "url":"media/PDF English/PROJ DESIGN-2015.pdf"};
   langDict.fr.proposal ={"label":"PROJECT PROPOSAL 2016-2018", "url":"media/PDF English/PROJ DESIGN-2015.pdf"};
-  langDict.en.office ={"label":"OFFICE BUILDING APEAL", "url":"media/PDF English/OFFICE BUILDING-APPEAL.pdf"};      
+  langDict.en.officebuild ={"label":"OFFICE BUILDING APEAL", "url":"media/PDF English/OFFICE BUILDING-APPEAL.pdf"};      
 // =======
 //   langDict.en.office ={"label":"OFFICE BUILDING APPEAL", "url":"media/PDF English/OFFICE BUILDING-APPEAL.pdf"};
 //   langDict.fr.office ={"label":"OFFICE BUILDING APPEAL", "url":"media/PDF English/OFFICE BUILDING-APPEAL.pdf"};
