@@ -129,6 +129,7 @@ angular.module('hoh.services', []).service('langService', function(){
   
   
   // page: Publications
+  langDict.en.evalaution={"label":"Evaluation report-2013-15","url":"media/PDF English/Evaluation report-2013-15Complete.pdf"};
   langDict.en.annual2014={"label":"Annual Report-2014","url":"media/PDF English/annualreport-2014.pdf"};
   langDict.fr.annual2014={"label":"RAPPORT-ANNUEL-2014.pdf","url":"media/PDF French/RAPPORT-ANNUEL-2014.pdf"};
   langDict.en.annual2013={"label":"Annual Report 2013","url":"media/PDF English/ANNUAL 2013 v2 EN.pdf"};
