@@ -35,10 +35,6 @@ angular.module('hoh.services', []).service('langService', function(){
   langDict.en.Projectsproposal='PROJECT PROPOSAL 2016-2018';
   langDict.en.Officebuilding='OFFICE BUILDING APEAL';
   // langDict.en.Projectsproposal='PROJECT PROPOSAL 2016-2018';
-// =======
-//   langDict.en.Projectsproposal='PROJECT PROPOSAL 2016-2018';
-//   langDict.en.office='OFFICE BUILDING APPEAL';
-// >>>>>>> ba0c5a981590bfe5d6f3a80a4d284bdf01c3f9d3
   langDict.en.viewdetails="Learn More";
   langDict.fr.viewdetails="En détail";
 
@@ -82,12 +78,7 @@ angular.module('hoh.services', []).service('langService', function(){
   langDict.fr.dec2013={"label":"Bulletin Decembre 2013","url":"media/PDF French/BULLETIN 12-2013 FR.pdf"};
   langDict.en.proposal ={"label":"PROJECT PROPOSAL 2016-2018", "url":"media/PDF English/PROJ DESIGN-2015.pdf"};
   langDict.fr.proposal ={"label":"PROJECT PROPOSAL 2016-2018", "url":"media/PDF English/PROJ DESIGN-2015.pdf"};
-  langDict.en.officebuild ={"label":"OFFICE BUILDING APEAL", "url":"media/PDF English/OFFICE BUILDING-APPEAL.pdf"};      
-// =======
-//   langDict.en.office ={"label":"OFFICE BUILDING APPEAL", "url":"media/PDF English/OFFICE BUILDING-APPEAL.pdf"};
-//   langDict.fr.office ={"label":"OFFICE BUILDING APPEAL", "url":"media/PDF English/OFFICE BUILDING-APPEAL.pdf"};
-        
-// >>>>>>> ba0c5a981590bfe5d6f3a80a4d284bdf01c3f9d3
+  langDict.en.office ={"label":"OFFICE BUILDING APEAL", "url":"media/PDF English/OFFICE BUILDING-APPEAL.pdf"};      
      
 // PARTIALS
 
@@ -129,6 +120,8 @@ angular.module('hoh.services', []).service('langService', function(){
   
   
   // page: Publications
+  langDict.en.annual2015={"label":"Annual Report-2015","url":"media/PDF English/2014-15 ANNUAL REPORT-FINAL.pdf"};
+  langDict.fr.annual2015={"label":"Annual Report-2015","url":"media/PDF English/2014-15 ANNUAL REPORT-FINAL.pdf"};
   langDict.en.annual2014={"label":"Annual Report-2014","url":"media/PDF English/annualreport-2014.pdf"};
   langDict.fr.annual2014={"label":"RAPPORT-ANNUEL-2014.pdf","url":"media/PDF French/RAPPORT-ANNUEL-2014.pdf"};
   langDict.en.annual2013={"label":"Annual Report 2013","url":"media/PDF English/ANNUAL 2013 v2 EN.pdf"};
