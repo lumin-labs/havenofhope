@@ -33,7 +33,8 @@ angular.module('hoh.services', []).service('langService', function(){
   langDict.en.introduction="We are an independent, nonprofit, nonpartisan and nonsectarian charity foundation in Cameroon, created by a group of benevolent friends whose aim is to contribute in a tangible manner, to improve the living conditions of teenage mothers, who may have lost interest in active life due to unexpected motherhood.";
   langDict.fr.introduction="Havre d'Espérance est une fondation caritative, indépendente, à but non lucratif, non partisan et non confessionnel avec le siège administratif au Cameroun, crée par un groupe d'amis bienveillants dont le but est de contribuer de manière tangible, à améliorer les conditions de vie des jeunes-filles-méres adolescentes, qui peuvent avoir perdu tout intérêt dans la vie active en raison d'une maternité précoce ou inattendue.  ";
   langDict.en.Projectsproposal='PROJECT PROPOSAL 2016-2018';
-  langDict.en.Projectsproposal='PROJECT PROPOSAL 2016-2018';
+  langDict.en.Officebuilding='OFFICE BUILDING APEAL';
+  langDict.en.ProjectsSANMBO='PROJECT Santa Mbororo';
   langDict.en.viewdetails="Learn More";
   langDict.fr.viewdetails="En détail";
 
@@ -77,7 +78,8 @@ angular.module('hoh.services', []).service('langService', function(){
   langDict.fr.dec2013={"label":"Bulletin Decembre 2013","url":"media/PDF French/BULLETIN 12-2013 FR.pdf"};
   langDict.en.proposal ={"label":"PROJECT PROPOSAL 2016-2018", "url":"media/PDF English/PROJ DESIGN-2015.pdf"};
   langDict.fr.proposal ={"label":"PROJECT PROPOSAL 2016-2018", "url":"media/PDF English/PROJ DESIGN-2015.pdf"};
-        
+  langDict.en.office ={"label":"OFFICE BUILDING APEAL", "url":"media/PDF English/OFFICE BUILDING-APPEAL.pdf"}; 
+  langDict.en.smbo ={"label":"PROJECT SANMBO", "url":"media/PDF English/SANMBO-Annual Report-Narrat-Dec2017.pdf"};     
      
 // PARTIALS
 
@@ -119,6 +121,12 @@ angular.module('hoh.services', []).service('langService', function(){
   
   
   // page: Publications
+  langDict.en.confee2017={"label":" Conference-EERG Dec2016","url":"media/PDF English/Conference-EERG-Dec2016-French.pdf"};
+  langDict.en.confee2017={"label":" Conference-EERG Dec2016","url":"media/PDF French/Conference-EERG-Dec2016-French.pdf"};
+  langDict.en.san2017={"label":" Santa Mbororo Dec2017","url":"media/PDF English/SANMBO-Annual Report-Narrat-Dec2017.pdf"};
+  langDict.fr.san2017={"label":" Santa Mbororo Dec2017","url":"media/PDF French/SANMBO-RAPPORT ANNUEL-DEC2017.pdf"};
+  langDict.en.annual2017={"label":" Report 2016-2017","url":"media/PDF English/annual Report2016-2017.pdf"};
+  langDict.en.annual2016={"label":" Report 2015-2016","url":"media/PDF English/2015-16 Annual Report-combined.pdf"};
   langDict.en.annual2014={"label":"Annual Report-2014","url":"media/PDF English/annualreport-2014.pdf"};
   langDict.fr.annual2014={"label":"RAPPORT-ANNUEL-2014.pdf","url":"media/PDF French/RAPPORT-ANNUEL-2014.pdf"};
   langDict.en.annual2013={"label":"Annual Report 2013","url":"media/PDF English/ANNUAL 2013 v2 EN.pdf"};
